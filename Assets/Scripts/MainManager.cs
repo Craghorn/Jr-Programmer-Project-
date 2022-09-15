@@ -8,6 +8,8 @@ public class MainManager : MonoBehaviour
 
     public static MainManager Instance;
 
+    public Color TeamColor; //new variable color for forklifts
+
     private void Awake()
     {
         // start of new code
